@@ -1,5 +1,4 @@
 package pro.skypro.coursework2.service.imlp;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -10,11 +9,9 @@ import pro.skypro.coursework2.Question;
 import pro.skypro.coursework2.exceptions.IncorrectAmountException;
 import pro.skypro.coursework2.service.impl.ExaminerServiceImpl;
 import pro.skypro.coursework2.service.impl.JavaQuestionService;
-
 import java.util.Collection;
 import java.util.List;
 import java.util.Set;
-
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
